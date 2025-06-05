@@ -34,7 +34,7 @@ git clone "$GIT_REPO" "$GIT_CLONE_DIR"
 check_error "Не удалось клонировать репозиторий"
 
 echo "3. Поиск последнего бекапа"
-LATEST_BACKUP=$(ls -t "$GIT_CLONE_DIR"/*.tar.gz | head -n 1)
+LATEST_BACKUP=$(ls -tr "$GIT_CLONE_DIR"/*.tar.gz | head -n 1)
 check_error "Не удалось найти бекапы в репозитории"
 
 if [ -z "$LATEST_BACKUP" ]; then
