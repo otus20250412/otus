@@ -49,7 +49,7 @@ mkdir -p "$EXTRACT_DIR"
 tar -xzvf "$LATEST_BACKUP" -C "$EXTRACT_DIR"
 check_error "Не удалось извлечь бекап из архива"
 
-BACKUP_SQL=$(find "$EXTRACT_DIR" -name "*.sql" | head -n 1)
+BACKUP_SQL=$(find "$EXTRACT_DIR" -name "*.sql" | sort -r | head -n 1)
 check_error "Не удалось найти SQL файл в архиве"
 
 if [ -z "$BACKUP_SQL" ]; then
