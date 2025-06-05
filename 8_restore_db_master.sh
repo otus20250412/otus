@@ -29,6 +29,7 @@ check_error "Не удалось подготовить рабочую дире�
 sudo chown -R vboxuser:vboxuser /home/vboxuser/
 
 echo "2. Клонирование репозитория с бекапами"
+sudo rm -rf "$GIT_CLONE_DIR"
 git clone "$GIT_REPO" "$GIT_CLONE_DIR"
 check_error "Не удалось клонировать репозиторий"
 
