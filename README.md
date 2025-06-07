@@ -3,9 +3,10 @@
 [![2025-06-01-11-46-35.jpg](https://i.postimg.cc/9MrsBJ4y/2025-06-01-11-46-35.jpg)](https://postimg.cc/LYFy9k3s)
 
 ![Linux](https://img.shields.io/badge/-Linux-grey?logo=linux)
-![Usage](https://img.shields.io/badge/Usage-System%20resource%20monitor-blue)
 ![Bash](https://img.shields.io/badge/Bash-v4.4%5E-green?logo=GNU%20bash)
-![bashtop_version](https://img.shields.io/github/v/tag/aristocratos/bashtop?label=version)
+[![](https://jaywcjlove.github.io/sb/ico/mysql.svg)](http://www.mysql.com/)
+[![Elastic Stack version](https://img.shields.io/badge/Elastic%20Stack-9.0.1-00bfb3?style=flat&logo=elastic-stack)](https://www.elastic.co/blog/category/releases)
+[![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?&logo=grafana&logoColor=white)](https://grafana.com/)
 [![Donate](https://img.shields.io/badge/-Donate-yellow?logo=paypal)](https://button.dekel.ru/)
 [![Sponsor](https://img.shields.io/badge/-Sponsor-red?logo=github)](https://button.dekel.ru/)
 [![Coffee](https://img.shields.io/badge/-Buy%20me%20a%20Coffee-grey?logo=Ko-fi)](https://button.dekel.ru/)
